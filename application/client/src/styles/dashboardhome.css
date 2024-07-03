@@ -1,0 +1,50 @@
+*{
+    padding:0%;
+    margin: 0%;
+}
+.dashboard_mainelements_main_div{
+    width: 80%;
+    border: 1px solid black;
+}
+.dashboardhome_navbar_main_div{
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+}
+.dashboardhome_section1_maindiv{
+    border: 1px solid red;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+.dashboardhome_section1_subdiv_1{
+    border: 1px solid green;
+    width: 70%;
+}
+.dashboardhome_section1_subdiv_2{
+    border: 1px solid red;
+    width: 30%;
+}
+.caloriesgraph_main_div{
+    border: 1px solid black;
+}
+.subsection1_subsecion_1{
+    border: 1px solid yellow;
+    height: 43%;
+    display: flex;
+    justify-content: space-around;
+}
+.addmeals_main_div{
+    height: 100%;
+    width: 45%;
+    border: 1px solid black;
+}
+.watergraph_main_div{
+    border: 1px solid black;
+    width: 30%;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+}

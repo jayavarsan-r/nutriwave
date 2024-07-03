@@ -64,7 +64,7 @@ const Form = () => {
           .post(`${url}/api/login`, userData)
           .then((res) => {
             User(userData.username);
-            navigate("/");
+            navigate("/tracker");
           })
           .catch((err) => {
             console.log(err);

@@ -1,0 +1,135 @@
+
+.signup_container_div{
+    /* border: 1px solid black; */
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+.signup_banner_div{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 40%;
+}
+.signup_form_div{
+    /* border: 1px solid red; */
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup_banner_div img{
+    height: 100%;
+    width: 100%;
+}
+.signup_from_main_sub_div{
+    /* border: 1px solid black; */
+    height: 92%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.signup_form_backdiv{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.signup_form_backdiv button{
+    width: 50px;
+    height: 45px;
+    border-radius: 50%;
+    border:1px solid  rgb(210, 206, 206);
+    background-color: white;
+}
+
+.signup_form_backdiv img{
+    height: 80%;
+}
+.signup_form_backdiv div{
+    margin-right: 15px;
+}
+
+.signup_form_mainsignup_option_div{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup_form_title{
+    text-align: center;
+}
+.signup_form_subtitle{
+    text-align: center;
+    color: grey;
+}
+.signup_form_mainsignup_option_div form{
+    width: 60%;
+    /* border: 1px solid red; */
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.signup_form_mainsignup_option_div_forum input{
+    display: block;
+    height: 7%;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+}
+.signup_form_mainsignup_option_div_forum label{
+    margin-top: 5px;
+}
+
+.signup_details_fields{
+    /* border: 1px solid black; */
+    display: flex;
+    height: 13%;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    /* align-items: center; */
+}
+.signup_details_fields input{
+    width: 90%;
+    height: 45%;
+    border-radius: 5px;
+    border: 0.5px solid grey;
+}
+.signup_main_button{
+    height: 30px;
+    width: 40%;
+    border-radius: 15px;
+    background-color: #4C5FFF;
+    border: none;
+    color: white;
+
+}
+
+.button-container-signuppage{
+    /* border: 1px solid black; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.google_facebook_signup{
+    display: flex;
+    width: 30%;
+}
+
+@media only screen and (max-width: 768px) {
+    .signup_banner_div {
+        display: none; }
+    .signup_form_div {
+        width: 100%;
+    }
+}
