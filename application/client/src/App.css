@@ -6,7 +6,7 @@
 
 :root {
   --color-dkgreen : #003e29;
-  --color-ltgreen : #ade6b9;
+  --color-ltgreen : #AD343E;
   --color-gray : #f3f3f3; 
 }
 
@@ -20,7 +20,7 @@
 .tracker-container {
   background-color: var(--color-gray);
   text-align: center;
-  padding: 4em 0;
+  /* padding: 4em 0; */
 }
 
 .bg-dkgreen {
@@ -54,6 +54,39 @@
 }
 
 .login-container {
-  background-image: -webkit-linear-gradient(135deg, #003e29,#ade6b9);
- 
+  background: linear-gradient(to top right, #333333 0%, #000000 50%, #333333 100%);
+  background-size: 400px 400px; /* Adjust size for animation scale */
+  animation: animateNoiseGradient 10s ease-in-out infinite alternate;
 }
+
+.noise-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("");
+  opacity: 0.2; /* Adjust opacity for desired effect */
+  animation: animateNoise 5s ease-in-out infinite;
+}
+
+@keyframes animateNoiseGradient {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 200px 200px;
+  }
+}
+
+@keyframes animateNoise {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 0.1;
+  }
+}
+
+
+
