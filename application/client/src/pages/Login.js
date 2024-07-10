@@ -83,7 +83,7 @@ const Form = () => {
   return (
     <div className="login-container h-screen w-full grid grid-cols-1 md:grid-cols-2">
       <div className="w-full h-full flex flex-col justify-center items-start">
-        <p className="px-20 text-8xl text-white">CalTrack</p>
+        <p className="px-20 text-8xl text-white">NutriWave</p>
         <p className="px-20 pt-5 text-3xl text-white">Track what you eat.</p>
         <p className="px-20 py-3 text-3xl text-white">Stay Healthy.</p>
       </div>
@@ -159,7 +159,7 @@ const Form = () => {
             </div>
           )}
           <button
-            className="w-full my-5 py-2 bg-dkgreen txt-ltgreen"
+            className="w-full my-5 py-2 bg-ltgreen txt-gray"
             type="submit"
           >
             {isSignUp ? "SignUp" : "Login"}
