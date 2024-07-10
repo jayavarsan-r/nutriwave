@@ -49,8 +49,9 @@
 }
 
 .submit-btn {
-  background-color: var(--color-dkgreen);
-  color: var(--color-ltgreen);
+  background-color: var(--color-ltgreen);
+  color: var(--color-gray);
+  border-radius: 5px;
 }
 
 .login-container {
@@ -90,3 +91,35 @@
 
 
 
+.meal-card{
+  width: fit-content;
+}
+.selct_tag{
+  border: 1px solid maroon;
+}
+
+.generator_bg{
+  width: 100%;
+  height: 100%;
+  /* Add your background pattern here */
+  background-color: #f7f1f1;
+  background-image: radial-gradient(#AD343E 2px, transparent 0);
+  background-size: 30px 30px;
+  background-position: -5px -5px
+}
+
+.meal-cards{
+  width: 500px;
+}
+.mealcar_c{
+  width: 100%;
+}
+
+.aitrainerdiv {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  background-image: radial-gradient(rgba(12, 12, 12, 0.171) 2px, transparent 0);
+  background-size: 30px 30px;
+  background-position: -5px -5px;
+}
