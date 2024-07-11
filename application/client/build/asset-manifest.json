@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.aec2ed74.css",
+    "main.js": "/static/js/main.3e3ae49e.js",
+    "static/js/787.d5fa4d18.chunk.js": "/static/js/787.d5fa4d18.chunk.js",
+    "static/media/homepagevideo.mp4": "/static/media/homepagevideo.d2f9e39efa2bcb1080d6.mp4",
+    "static/media/img.png": "/static/media/img.95ebf4557c464c316d9c.png",
+    "static/media/bg.png": "/static/media/bg.7d34edd2790940759b93.png",
+    "static/media/map.png": "/static/media/map.16b7c873a867d90277b8.png",
+    "static/media/Group4.png": "/static/media/Group4.33af47ff35ae5e53a070.png",
+    "static/media/bmi.png": "/static/media/bmi.8a00702e72569f86e7a0.png",
+    "static/media/logo.png": "/static/media/logo.9e2835c156759a1f17eb.png",
+    "static/media/balanceddiet.png": "/static/media/balanceddiet.fc9a73a64af361f2bec5.png",
+    "static/media/caloriescalculator.png": "/static/media/caloriescalculator.3fdfe216396c34e13283.png",
+    "static/media/drinkwater.png": "/static/media/drinkwater.0afc5c29773a76f100ba.png",
+    "static/media/contentstrategy.png": "/static/media/contentstrategy.abbf69ea530d45a66f6c.png",
+    "static/media/result.png": "/static/media/result.e8057a3daa35d224db16.png",
+    "index.html": "/index.html",
+    "main.aec2ed74.css.map": "/static/css/main.aec2ed74.css.map",
+    "main.3e3ae49e.js.map": "/static/js/main.3e3ae49e.js.map",
+    "787.d5fa4d18.chunk.js.map": "/static/js/787.d5fa4d18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aec2ed74.css",
+    "static/js/main.3e3ae49e.js"
+  ]
+}

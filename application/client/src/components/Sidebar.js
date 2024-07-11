@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 import { GlobalContext } from "../context/GlobalState";
 
 
+
 const Sidebar = () => {
   const { userName } = useContext(GlobalContext);
   const menus = [
@@ -17,7 +18,7 @@ const Sidebar = () => {
     { name: "Dommunity", link: "/", icon: FiMessageSquare },
     { name: "DietPlan", link: "/diet", icon: TbReportAnalytics, margin: true },
     { name: "AI Trainer", link: "/aitrainer", icon: FiFolder },
-    { name: "", link: "", icon: AiOutlineHeart, margin: true },
+    // { name: "", link: "", icon: AiOutlineHeart, margin: true },
     { name: "Logout", link: "/login", icon: RiSettings4Line },
   ];
   const [open, setOpen] = useState(true);
@@ -35,7 +36,7 @@ const Sidebar = () => {
             onClick={() => setOpen(!open)}
           />
         </div>
-        <div className="mt-4 flex flex-col gap-4 relative">
+        <div className="mt-4 flex flex-col gap-12 relative">
           {menus?.map((menu, i) => (
             <Link
               to={menu?.link}
