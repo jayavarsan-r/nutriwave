@@ -6,7 +6,7 @@ const initialState = {
   mealData: [],
   userName: "",
 };
-const url = "http://localhost:8080";
+const url = "https://nutriwave-4.onrender.com";
 
 export const GlobalContext = createContext(initialState);
 

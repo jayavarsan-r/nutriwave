@@ -15,7 +15,7 @@ const Sidebar = () => {
   const menus = [
     { name: "Dashboard", link: "/", icon: MdOutlineDashboard },
     { name: userName, link: "/tracker", icon: AiOutlineUser },
-    { name: "Dommunity", link: "/", icon: FiMessageSquare },
+    { name: "Community", link: "/", icon: FiMessageSquare },
     { name: "DietPlan", link: "/diet", icon: TbReportAnalytics, margin: true },
     { name: "AI Trainer", link: "/aitrainer", icon: FiFolder },
     // { name: "", link: "", icon: AiOutlineHeart, margin: true },

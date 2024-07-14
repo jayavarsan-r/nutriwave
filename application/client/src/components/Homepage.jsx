@@ -6,15 +6,15 @@ import homevideo from "../assets/homepagevideo.mp4";
 import testuser from "../assets/Ellipse 19.png";
 import { useNavigate } from "react-router-dom";
 function Homepage() {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   const handleClick = () => {
-    navigate('/login'); 
+    navigate("/login");
   };
   const scrollToAbout = () => {
     const aboutSection = document.getElementById("home_page_about_id");
     if (aboutSection) {
-      const offset = aboutSection.offsetTop - 100; 
-      window.scrollTo({ top: offset, behavior: "smooth" }); 
+      const offset = aboutSection.offsetTop - 100;
+      window.scrollTo({ top: offset, behavior: "smooth" });
     } else {
       console.error("Element with ID 'home_page_about_id' not found");
     }
@@ -24,7 +24,7 @@ function Homepage() {
     const aboutSection = document.getElementById("homepage_networking_maindiv");
     if (aboutSection) {
       const offset = aboutSection.offsetTop - 100;
-      window.scrollTo({ top: offset, behavior: "smooth" }); 
+      window.scrollTo({ top: offset, behavior: "smooth" });
     } else {
       console.error("Element with ID 'home_page_about_id' not found");
     }
@@ -32,8 +32,8 @@ function Homepage() {
   const scrollTofooter = () => {
     const aboutSection = document.getElementById("homepage_footer");
     if (aboutSection) {
-      const offset = aboutSection.offsetTop; 
-      window.scrollTo({ top: offset, behavior: "smooth" }); 
+      const offset = aboutSection.offsetTop;
+      window.scrollTo({ top: offset, behavior: "smooth" });
     } else {
       console.error("Element with ID 'home_page_about_id' not found");
     }
@@ -41,8 +41,8 @@ function Homepage() {
   const scrollTotop = () => {
     const aboutSection = document.getElementById("homebanner_maindiv");
     if (aboutSection) {
-      const offset = aboutSection.offsetTop -100; 
-      window.scrollTo({ top: offset, behavior: "smooth" }); 
+      const offset = aboutSection.offsetTop - 100;
+      window.scrollTo({ top: offset, behavior: "smooth" });
     } else {
       console.error("Element with ID 'home_page_about_id' not found");
     }
@@ -50,32 +50,44 @@ function Homepage() {
   const scrollTofeatures = () => {
     const aboutSection = document.getElementById("homepage_feature_maindiv");
     if (aboutSection) {
-      const offset = aboutSection.offsetTop -50; 
-      window.scrollTo({ top: offset, behavior: "smooth" }); 
+      const offset = aboutSection.offsetTop - 50;
+      window.scrollTo({ top: offset, behavior: "smooth" });
     } else {
       console.error("Element with ID 'home_page_about_id' not found");
     }
   };
 
-    
   return (
     <>
       <div className="navbar_maindiv">
         <div className="navbar_logodiv">
-          <div onClick= {(e) => {window.location.reload()}} className="navbar_logo">
-          </div>
+          <div
+            onClick={(e) => {
+              window.location.reload();
+            }}
+            className="navbar_logo"
+          ></div>
         </div>
         <div className="navbar_aboutdiv">
-          <a onClick={scrollTotop} className="navbar_textelemnt">Home</a>
-          <a onClick={scrollTofeatures}className="navbar_textelemnt">Features</a>
-          <a onClick={scrollToAbout} className="navbar_textelemnt">About</a>
-          <a onClick={scrollTofooter}className="navbar_textelemnt">Support</a>
-          <a onClick={scrollTonetworkt} className="navbar_textelemnt">Forums</a>
-         
+          <a onClick={scrollTotop} className="navbar_textelemnt">
+            Home
+          </a>
+          <a onClick={scrollTofeatures} className="navbar_textelemnt">
+            Features
+          </a>
+          <a onClick={scrollToAbout} className="navbar_textelemnt">
+            About
+          </a>
+          <a onClick={scrollTofooter} className="navbar_textelemnt">
+            Support
+          </a>
+          <a onClick={scrollTonetworkt} className="navbar_textelemnt">
+            Forums
+          </a>
         </div>
       </div>
       <div className="middle_spacer"></div>
-      <div id="homebanner_maindiv"className="homebanner_maindiv">
+      <div id="homebanner_maindiv" className="homebanner_maindiv">
         <div className="homebanner_content_div">
           <div className="homebanner_heading">
             Smart Eats <br></br>
@@ -85,9 +97,9 @@ function Homepage() {
             Dive into NutriWave<br></br>
             Where Every Calorie Counts Towards Your Success
           </div>
-          <div className="wrapper" >
+          <div className="wrapper">
             {/* havt to use link in future ----------uodation needed here in buttons branch */}
-            <a className="cta" href="login"> 
+            <a className="cta" onClick={handleClick}>
               <span className="heading_name">Start Your Journey</span>
               <span>
                 <svg
@@ -130,7 +142,7 @@ function Homepage() {
       <div id="homepage_feature_maindiv" className="homepage_feature_maindiv">
         <p className="homepage_features_heading">Discover a Healthier You</p>
         <div className="homepage_feature_container">
-          <div className="homepage_feature_contentdiv 1"> 
+          <div className="homepage_feature_contentdiv 1">
             <div className="homepage_features_content_image " id="i1"></div>
             <div className="homepage_features_content_heading">
               Hydration Made Easy:<br></br>Track & Stay On Top
@@ -141,7 +153,7 @@ function Homepage() {
             </div>
           </div>
           <div className="homepage_feature_contentdiv 2">
-            <div className="homepage_features_content_image " id="i2" ></div>
+            <div className="homepage_features_content_image " id="i2"></div>
             <div className="homepage_features_content_heading">
               Track It All: <br></br> Calories, Macros & Micros 
             </div>
@@ -189,7 +201,7 @@ function Homepage() {
           </div>
         </div>
       </div>
-      <div  id="about" className="homepage_aboutwebsite_maindiv">
+      <div id="about" className="homepage_aboutwebsite_maindiv">
         <div className="homepage_about_videodiv">
           <video controls={true} className="vieo_homepage">
             <source src={homevideo} type="video/mp4" />
@@ -220,11 +232,14 @@ function Homepage() {
               <i></i>
               <i></i>
             </em>
-            <span >Getstarted</span>
+            <span>Getstarted</span>
           </div>
         </div>
       </div>
-      <div id="homepage_networking_maindiv" className="homepage_networking_maindiv">
+      <div
+        id="homepage_networking_maindiv"
+        className="homepage_networking_maindiv"
+      >
         <div className="homepage_networking_maindiv_text">
           <p>
             CREATE A GOOD <span className="colore_red">RELATIONSHIP</span> WITH{" "}
@@ -251,17 +266,17 @@ function Homepage() {
           Missing something from your plate? Track your food & uncover missing
           vitamins & minerals.
         </div>
-        <button id="join_now" onClick={handleClick}>Join now</button>
+        <button id="join_now" onClick={handleClick}>
+          Join now
+        </button>
       </div>
       <div className="homepage_feedback_maindiv">
         <h1>What Our customers say</h1>
         <div className="homepage_customer_review_maindiv">
           <div className="homepage_customer_review">
-            <p className="reviews_heading">“The best restaurant”</p>
+            <p className="reviews_heading">“Engaging and Informative Content”</p>
             <p className="reviews_taglines">
-              Last night, we dined at place and were simply blown away. From the
-              moment we stepped in, we were enveloped in an inviting atmosphere
-              and greeted with warm smiles.
+            Great content! The app provides valuable nutritional insights and the AI answers all my questions.
             </p>
             <div className="reviews_line"></div>
             <div className="homepage_user_profile">
@@ -270,11 +285,9 @@ function Homepage() {
             </div>
           </div>
           <div className="homepage_customer_review">
-            <p className="reviews_heading">“The best restaurant”</p>
+            <p className="reviews_heading">“Personalization and Adaptability”</p>
             <p className="reviews_taglines">
-              Last night, we dined at place and were simply blown away. From the
-              moment we stepped in, we were enveloped in an inviting atmosphere
-              and greeted with warm smiles.
+            The AI creates personalized diet plans tailored to my needs and updates based on my progress
             </p>
             <div className="reviews_line"></div>
             <div className="homepage_user_profile">
@@ -283,11 +296,9 @@ function Homepage() {
             </div>
           </div>
           <div className="homepage_customer_review">
-            <p className="reviews_heading">“The best restaurant”</p>
+            <p className="reviews_heading">“User-Friendly Interface”</p>
             <p className="reviews_taglines">
-              Last night, we dined at place and were simply blown away. From the
-              moment we stepped in, we were enveloped in an inviting atmosphere
-              and greeted with warm smiles.
+            The interface is so intuitive and clean, making it super easy to track meals and chat with the AI.
             </p>
             <div className="reviews_line"></div>
             <div className="homepage_user_profile">
@@ -335,11 +346,8 @@ function Homepage() {
             <button>Subscribe</button>
           </div>
         </div>
-        
       </div>
-      <div className="homepage_copyright">
-      Copyright © 2023 Nutriwave
-      </div>
+      <div className="homepage_copyright">Copyright © 2023 Nutriwave</div>
     </>
   );
 }
