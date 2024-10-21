@@ -18,7 +18,6 @@ const Sidebar = () => {
     { name: "Community", link: "/", icon: FiMessageSquare },
     { name: "DietPlan", link: "/diet", icon: TbReportAnalytics, margin: true },
     { name: "AI Trainer", link: "/aitrainer", icon: FiFolder },
-    // { name: "", link: "", icon: AiOutlineHeart, margin: true },
     { name: "Logout", link: "/login", icon: RiSettings4Line },
   ];
   const [open, setOpen] = useState(true);

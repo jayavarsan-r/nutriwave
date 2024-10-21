@@ -4,7 +4,7 @@ import { GlobalContext } from "../context/GlobalState";
 import axios from "axios";
 import "boxicons";
 
-const url = "https://nutriwave-4.onrender.com";
+const url = "http://localhost:8080";
 const Form = () => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({

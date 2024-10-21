@@ -1,0 +1,228 @@
+.iphone-pro-x {
+    background-color: #4bad73;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .iphone-pro-x .div {
+    background-color: var(--primary);
+    overflow: hidden;
+    width: 375px;
+    height: 812px;
+    position: relative;
+  }
+  
+  .iphone-pro-x .overlap {
+    position: absolute;
+    width: 596px;
+    height: 566px;
+    top: -112px;
+    left: -158px;
+  }
+  
+  .iphone-pro-x .ellipse {
+    width: 596px;
+    height: 489px;
+    left: 0;
+    background-color: #53b87c;
+    border-radius: 298px/244.5px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .iphone-pro-x .group {
+    position: absolute;
+    width: 145px;
+    height: 290px;
+    top: 275px;
+    left: 338px;
+  }
+  
+  .iphone-pro-x .img {
+    position: absolute;
+    width: 125px;
+    height: 285px;
+    top: 281px;
+    left: 210px;
+  }
+  
+  .iphone-pro-x .overlap-wrapper {
+    position: absolute;
+    width: 199px;
+    height: 34px;
+    top: 193px;
+    left: 247px;
+  }
+  
+  .iphone-pro-x .overlap-group {
+    position: relative;
+    width: 197px;
+    height: 34px;
+  }
+  
+  .iphone-pro-x .vector {
+    position: absolute;
+    width: 28px;
+    height: 31px;
+    top: 0;
+    left: 169px;
+  }
+  
+  .iphone-pro-x .text-wrapper {
+    position: absolute;
+    width: 169px;
+    height: 34px;
+    top: 0;
+    left: 0;
+    font-family: "Montserrat Alternates-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .iphone-pro-x .overlap-group-wrapper {
+    position: absolute;
+    width: 337px;
+    height: 54px;
+    top: 632px;
+    left: 20px;
+  }
+  
+  .iphone-pro-x .div-wrapper {
+    position: relative;
+    width: 335px;
+    height: 54px;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  
+  .iphone-pro-x .text-wrapper-2 {
+    position: absolute;
+    width: 126px;
+    height: 18px;
+    top: 18px;
+    left: 105px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--primary);
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 18px;
+  }
+  
+  .iphone-pro-x .gofarm-is-a-solution {
+    position: absolute;
+    width: 359px;
+    height: 90px;
+    top: 517px;
+    left: 10px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .iphone-pro-x .span {
+    font-weight: 500;
+  }
+  
+  .iphone-pro-x .text-wrapper-3 {
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+  }
+  
+  .iphone-pro-x .group-2 {
+    position: absolute;
+    width: 32px;
+    height: 8px;
+    top: 749px;
+    left: 171px;
+  }
+  
+  .iphone-pro-x .ellipse-2 {
+    width: 8px;
+    height: 8px;
+    left: 0;
+    background-color: var(--gray-4);
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .iphone-pro-x .ellipse-3 {
+    width: 8px;
+    height: 8px;
+    left: 12px;
+    background-color: var(--gray-4);
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .iphone-pro-x .ellipse-4 {
+    width: 8px;
+    height: 8px;
+    left: 24px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .iphone-pro-x .dark-mode-false-type {
+    position: fixed;
+    width: 375px;
+    height: 44px;
+    top: 0;
+    left: 0;
+  }
+  
+  .iphone-pro-x .right-side {
+    position: absolute;
+    width: 67px;
+    height: 11px;
+    top: 17px;
+    left: 294px;
+  }
+  
+  .iphone-pro-x .battery {
+    position: absolute;
+    width: 24px;
+    height: 11px;
+    top: 0;
+    left: 42px;
+  }
+  
+  .iphone-pro-x .wifi {
+    position: absolute;
+    width: 15px;
+    height: 11px;
+    top: 0;
+    left: 22px;
+  }
+  
+  .iphone-pro-x .mobile-signal {
+    position: absolute;
+    width: 17px;
+    height: 11px;
+    top: 0;
+    left: 0;
+  }
+  
+  .iphone-pro-x .left-side {
+    position: absolute;
+    width: 54px;
+    height: 21px;
+    top: 12px;
+    left: 21px;
+  }
+  
